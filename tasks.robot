@@ -19,7 +19,6 @@ Read Policies As Table
 Create New WorkSheet Tasks
      Create New WorkBook From Map   new_wbook_2.xlsx
      ${policydata} =  Read Excel File WorkSheet As Table      new_wbook_2.xlsx     Sheet
-
 *** Tasks ***
 Iterate WorkSheets Example
     Iterate WorkSheets From Workbook   ./DataSets/sampledatainsurance.xlsx
